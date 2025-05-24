@@ -13,8 +13,8 @@ const trendingProducts = [
   },
   {
     id: 3,
-    name: 'Hijab',
-    Image1: 'images/hijab.png',
+    name: 'Gift card',
+    Image1: 'images/gift.png',
     price: 35.00
   },
   {
