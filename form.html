@@ -104,7 +104,7 @@
 	        	<input type="text" id="address" name="user_address" placeholder="Enter your address" required>
 	      </div>
 
-	        <div class="input-box">
+	       <div class="input-box">
 	        	<label for="city">City</label>
 	        	<input type="text" id="city" name="user_city" placeholder="Enter your City" required>
 	      </div>
@@ -119,7 +119,7 @@
 	        	<input type="tel" id="zipCode" name="user_zipcode" placeholder="Enter your ZipCode" required>
 	      </div>
 
-	         <div class="input-box">
+	        <div class="input-box">
 	         	<label for="age">Age</label>
 	        	<input type="number" id="age" name="user_age" placeholder="Enter your age" required>
 	      </div>
@@ -138,6 +138,17 @@
 	        	<label for="why">Why should Nike Select you for this survey?</label>
 	        	<textarea type="textarea" id="why" name="user_why" rows="4" cols="50" required></textarea>
 	      </div>
+
+	     <div>
+				  <label for="availability">Are you available to test if selected today?</label><br>
+
+				  <input type="radio" id="available-yes" name="user_availability" value="Yes" required>
+				  <label for="available-yes">Yes</label>
+
+				  <input type="radio" id="available-no" name="user_availability" value="No">
+				  <label for="available-no">No</label>
+			</div>
+
 
 	        <button type="submit">Submit</button>
 	    </form>
