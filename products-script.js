@@ -14,7 +14,7 @@ const trendingProducts = [
   {
     id: 3,
     name: 'Gift card',
-    Image1: 'images/gift.png',
+    Image1: 'images/cardd.png',
     price: 35.00
   },
   {
