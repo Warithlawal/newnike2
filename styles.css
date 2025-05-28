@@ -396,6 +396,236 @@ main {
 	transition: all 1s ease;
 }
 
+.bbt{
+    background-color: black;
+    padding: 20px 0 30px;
+    text-align: center;
+}
+
+
+ .pa-content {
+    display: flex;
+    margin: 100px 10% 80px;
+    align-items: top;
+    justify-content: center;
+    gap: 80px;
+}
+
+.pa-header {
+    max-width: 500px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.pa-header h1 {
+    font-size: 40px;
+    color: #172E57;
+}
+
+.pa-header p {
+    font-size: 17px;
+    line-height: 27px;
+    color: #172E57;
+}
+
+.pa-header ul li {
+    font-size: 17px;
+    line-height: 27px;
+    color: #172E57;
+}
+
+
+.lottie img{
+    max-width: 390px;   
+}
+
+.assign {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	max-width: 650px;
+	gap: 30px;
+	padding: 0 20px;
+	margin: 100px auto;
+	align-items: center;
+}
+
+.assign p {
+	line-height: 30px;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.assign a {
+	padding: 10px 15px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+.about-section {
+	background-color: black;
+	padding: 40px 0;
+}
+
+.about-section h1{
+	color: white;
+    font-size: 70px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.about-cover {
+    position: relative;
+}
+
+.about-position {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.about-cover h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.about-cover img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.form-content {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-content h1{
+    color: #172E57;
+    font-size: 70px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.form-container {
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 20px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.form-container p {
+    font-size: 14px;
+    color: #666;
+}
+
+/**form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}**/
+
+.input-box input{
+    width: 100%;
+}
+
+.input-box textarea{
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    column-gap: 30px;
+}
+
+label {
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+input {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-info {
+    margin: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container h1, 
+.form-container p{
+    margin-bottom: 20px;
+}
+
+.form-container button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #172E57;
+}
+
+.contact_message {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    font-size: 26px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 5px;
+    max-width: 400px;
+    height: 200px;
+    text-align: center;
+    margin: 20px auto;
+    display: none;
+}
+
+.contact_message img {
+    width: 100px;
+    display: block; /* To make sure the image is block-level and centered */
+    margin: 0 auto;
+}
+
 footer {
 	background-color: #242733;
 	padding: 30px 0;
@@ -478,6 +708,7 @@ hr {
     display: block;
     padding-bottom: 30px;
     text-align: left;
+    font-size: 30px;
   }
 
   .menu-collapse a {
@@ -545,6 +776,17 @@ hr {
     font-size: 40px;
   }
 
+  .about-cover h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.about-cover img {
+
+    height: 200px;
+    object-position: left;
+}
+
    footer {
 		font-size: 12px;
 	}
@@ -598,6 +840,28 @@ hr {
   footer {
 		font-size: 12px;
 	}
+}
+
+@media only screen and (max-width: 800px) {
+    .pa-content  {
+        flex-direction: column;
+    }
+
+    .left {
+        order: 1;
+    }
+
+    .right {
+        order: 2;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+
+    .lottie img{
+        max-width: 300px;   
+    }
+
 }
 
 /* Large Devices (Desktops and above) */
