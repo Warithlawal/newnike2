@@ -104,6 +104,7 @@ main {
 	font-size: 50px;
 	cursor: pointer;
 	color: white;
+    display: none;
 }
 
 .frame {
@@ -847,11 +848,11 @@ hr {
         flex-direction: column;
     }
 
-    .left {
+    .leftt {
         order: 1;
     }
 
-    .right {
+    .rightt {
         order: 2;
     }
 }
@@ -864,11 +865,6 @@ hr {
 
 }
 
-/* Large Devices (Desktops and above) */
-@media (min-width: 1025px) {
-  
-  }
-}
 
 
 
