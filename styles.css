@@ -536,11 +536,7 @@ main {
     color: #666;
 }
 
-/**form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}**/
+
 
 .input-box input{
     width: 100%;
