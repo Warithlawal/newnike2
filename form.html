@@ -69,7 +69,7 @@
 
     <div class="form-container" id="form_container">
 	    <p>Fill out form below as applicable:</p>
-	    <form action="" id="applicationForm" class="form">
+	    <form id="applicationForm" class="form">
 	    	<div class="column">
 	    		<div class="input-box">
 	        <label for="firstName">First Name</label>
@@ -88,7 +88,7 @@
 	     			<input type="email" id="email" name="user_email" placeholder="Enter your Email" required>
 	     		</div>
 	     		<div class="input-box">
-	        	<label for="com-email">Comfirm Email</label>
+	        	<label for="comemail">Comfirm Email</label>
 	     			<input type="email" id="comemail" name="user_comemail" placeholder="Confirm Email" required>
 	     		</div>
 	    	</div>
@@ -136,7 +136,8 @@
 
 	      <div class="input-box">
 	        	<label for="why">Why should Nike Select you for this survey?</label>
-	        	<textarea type="textarea" id="why" name="user_why" rows="4" cols="50" required></textarea>
+	        	<textarea id="why" name="user_why" rows="4" cols="50" required></textarea>
+
 	      </div>
 
 	     <div>
@@ -148,7 +149,6 @@
 				  <input type="radio" id="available-no" name="user_availability" value="No">
 				  <label for="available-no">No</label>
 			</div>
-
 
 	        <button type="submit">Submit</button>
 	    </form>
@@ -171,14 +171,11 @@
 		</div>
 		
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="scripts.js"></script>
+
 </body>
 <a href="#" class="scrollup" id="scroll-up">
-        <i class="fa-sharp fa-light fa-chevron-up"></i>
-    </a>
-<script src="scripts.js"></script>
-<script
-  type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script src="script.js"></script>
+    <i class="fa-sharp fa-light fa-chevron-up"></i>
+</a>
 </html>
